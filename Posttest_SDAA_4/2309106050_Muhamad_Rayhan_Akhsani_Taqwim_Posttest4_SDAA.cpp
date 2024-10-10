@@ -172,7 +172,6 @@ void kurangiJenisBarang(Barang* &head) {
     jeda();
 }
 
-// Fungsi Stack
 void tambahKeStack(stack<string> &barangStack) {
     string namaBarang;
     cout << "Masukkan Nama Barang: ";
@@ -209,7 +208,6 @@ void cetakStack(stack<string> barangStack) {
     jeda();
 }
 
-// Fungsi Queue
 void tambahKeQueue(queue<string> &barangQueue) {
     string namaBarang;
     cout << "Masukkan Nama Barang: ";
